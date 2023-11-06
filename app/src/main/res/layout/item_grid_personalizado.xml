@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <!-- ImageView -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- Textos -->
+    <LinearLayout
+        android:id="@+id/layoutPerimetroArea"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#DAAC58">
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Nombre Figura"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textViewPerimetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perímetro: "
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Área: "
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textViewVolumenCilindro"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:text="Fórmula del Volumen del Cilindro"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:background="#DAAC58"/>
+
+</LinearLayout>
